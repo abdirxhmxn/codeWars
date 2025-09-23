@@ -4,9 +4,9 @@ My collection of solutions to Codewars challenges - sharpening my programming sk
 
 ## 📊 My Codewars Stats
 
-![Codewars](https://www.codewars.com/users/abdirxhmxn/badges/large)
+![Codewars](https://www.codewars.com/users/CodWiz23/badges/large)
 
-[View my Codewars profile](https://www.codewars.com/users/abdirxhmxn)
+[View my Codewars profile](https://www.codewars.com/users/CodWiz23)
 
 ## 🗂️ Repository Structure
 
