@@ -4,7 +4,9 @@ My collection of solutions to Codewars challenges - sharpening my programming sk
 
 ## 📊 My Codewars Stats
 
-[![Codewars](https://www.codewars.com/users/abdirxhmxn/badges/large)](https://www.codewars.com/users/abdirxhmxn)
+![Codewars](https://www.codewars.com/users/abdirxhmxn/badges/large)
+
+[View my Codewars profile](https://www.codewars.com/users/abdirxhmxn)
 
 ## 🗂️ Repository Structure
 
@@ -15,3 +17,6 @@ Solutions are organized by difficulty level:
 - `6-kyu/` - Intermediate challenges
 - `5-kyu/` - Advanced challenges
 - `4-kyu/` - Expert challenges
+
+
+*Happy coding! 🚀*
