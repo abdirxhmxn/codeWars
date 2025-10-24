@@ -5,22 +5,30 @@
  * pigIt('Hello world !');     // elloHay orldway !
  */
 
-function pigIt(str) {
-    //Code here
-    let letter = []
-    let final = []
-    let arr = str.split(' ').map(word => {
-        if (word === '!' || word === '.') {
-            return word;
-        } else {
-            let char = word.split('')
-            letter.push(char[0])
-            char.shift()
-            char.push(`${letter[0]}ay`)
-            letter.shift()
-            final.push(char.join(''))
-        }
-    }).join(' ')
-    let result = final.toString().split(',').join(' ')
-    return result;
+function pigIt(str){
+  //Code here
+   let letter = []
+   let final = []
+   let arr = str.split(' ').map(word =>{
+     if(word === '!' || word === '.' || word === '?'){
+        let char = word.split('')
+        letter.push(char[0])
+        char.shift()
+        char.push(`${letter[0]}`)
+        letter.shift()
+        final.push(char.join(''))
+     }else{
+      let char = word.split('')
+      letter.push(char[0])
+      char.shift()
+      char.push(`${letter[0]}ay`)
+      letter.shift()
+      final.push(char.join(''))
+     }
+     console.log(final)
+   }).join(' ')
+   
+   let result = final.toString().split(',').join(' ')
+   
+   return result;
 }
